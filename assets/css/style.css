@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+ }
+ *,
+ *:before,
+ *:after {
+  box-sizing: inherit;
+ }
+
+/* html css body.*/
+body {
+  font-family: Roboto, Roboto Condensed, sans-serif;
+  background-image: url(/assets/imgs/fondo_rosado_suave.jpg..jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* header */
+.main-header {
+  height: 400px;
+  padding: 3rem;
+  background-image: url(/assets/imgs/lifting_portda.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-header h1 {
+  font-size: 4rem;
+  margin: 0px;
+  font-weight: 700;
+}
+.main-header p {
+  font-size: 2rem;
+  margin: 0px;
+}
+
+/* products */
+table {
+  padding: 20%;
+}
+.products {
+  width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 100px;
+}
+.main tr {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+.main td {
+  width: 50%;
+  padding: 3em;
+}
+.main img {
+  width: 30%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+.main p {
+  font-size: 29px;
+}
+
+/* footer */
+.footer {
+  height: 6em;
+  line-height: 6em;
+  text-align: center;
+  background-color: #4f1c4f;
+}
+.footer a {
+  color: #ffdaaf;
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: none;
+}
